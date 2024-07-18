@@ -1,0 +1,87 @@
+@font-face {
+  font-family: vazir;
+  src: url("/public/font/vaizr.eot") format("truetype"),
+  url("/public/font/vazir.ttf") format("ttf"),
+  url("/public/font/vazir.woff") format("wofft"),
+  url("/public/font/vazir.woff2") format("woff2");
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+font-size: 10px;
+}
+
+body{
+font-family: vazir;
+}
+.App{
+padding-top: 30px;
+display: flex;
+justify-content: center;
+}
+
+label{
+display: flex;
+font-size: 15px;
+margin-bottom: 5px;
+font-weight: 800;
+}
+
+input + label{
+font-weight: bold;
+display: inline-flex;
+margin-right: 20px;
+margin-left: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
+width: 400px;
+padding: 6px 12px;
+display: block;
+background-color: #fff;
+color: #444;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+.formControl{
+margin-bottom: 20px;
+}
+
+button{
+padding: 5px 15px;
+}
+
+.Radion , .checkbox{
+  margin-top: 20px;
+  width: 224px;
+  display: flex;
+  padding: 3px 0 12px 0;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.check{
+  display: flex;
+  flex-direction: column;
+}
+
+.country{
+  margin: 4px 0;
+
+}
+
+.error{
+color: red;
+}

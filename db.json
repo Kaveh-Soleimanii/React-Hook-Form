@@ -1,0 +1,18 @@
+{
+  "user": [
+    {
+      "id": 1710057511023,
+      "intrests": [
+        "Vue.js"
+      ],
+      "name": "کاوه سلیمانی اوموئی",
+      "email": "kavesoleymani1422@gmail.com",
+      "number": "09331786443",
+      "password": "12",
+      "PasswordConfirmation": "12",
+      "gender": "1",
+      "nationality": "US",
+      "Rules": "true"
+    }
+  ]
+}
